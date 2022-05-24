@@ -14,6 +14,7 @@ public class GameManagerParent : MonoBehaviour
     void Awake()
     {
         instance = this;
+        Pause.ResumeGame(); // Resume game if scene switched;
     }
 
     public void IncreaseScore(int number = 1)

@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         instance = this;
+        Pause.ResumeGame(); // Resume game if scene switched;
     }
 
     public void LoadScene(string sceneName) // Can be called everywhere
