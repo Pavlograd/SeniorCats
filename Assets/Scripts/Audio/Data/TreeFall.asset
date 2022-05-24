@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c13d00c2633fc4b950fb10e61958d1, type: 3}
+  m_Name: TreeFall
+  m_EditorClassIdentifier: 
+  audioStates:
+  - name: Crack
+    clips:
+    - {fileID: 8300000, guid: 26df719bc32f5764f9620a06c8b14a98, type: 3}
+    - {fileID: 8300000, guid: 39271fa5e8e326e43b47a57a8298d1d1, type: 3}
+    - {fileID: 8300000, guid: 9b8040693740c664f938bbf7199120f4, type: 3}
+    - {fileID: 8300000, guid: aeafacc7159d99848a6a111953b0727c, type: 3}
+    - {fileID: 8300000, guid: b55287124ba26bf42b24a90a9fb2a22e, type: 3}
+    - {fileID: 8300000, guid: be58cf6f509f1774cbf532e5752bef88, type: 3}
+    - {fileID: 8300000, guid: 7da43fa0b02c63d48b1b56e2a2eb23ce, type: 3}
+    - {fileID: 8300000, guid: 617ddbdc6cc1ed049ad49c917d665cdf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Meow
+    clips:
+    - {fileID: 8300000, guid: 02e0f1e78f5a7e94c9affbffdc25a163, type: 3}
+    - {fileID: 8300000, guid: 79f9444b966f5bf488dfc1cf704add20, type: 3}
+    - {fileID: 8300000, guid: af98118410be5ae42b0e237aec52c65e, type: 3}
+    - {fileID: 8300000, guid: 4731f9f90247aa04abc91a8dcfa5465c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+  - name: Idle
+    clips: []
+    volume: 1
+    pitch: 1
+    loop: 0

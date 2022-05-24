@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03013f332f9e6d4e9aa5287df6f1b5a, type: 3}
+  m_Name: NutsData
+  m_EditorClassIdentifier: 
+  nuts:
+  - prefab: {fileID: 6691906126499883736, guid: 929c5f6f6b1d4d34a94044898ce1d082, type: 3}
+    minScore: 200
+    probability: 1
+  - prefab: {fileID: 6691906126499883736, guid: 929c5f6f6b1d4d34a94044898ce1d082, type: 3}
+    minScore: 100
+    probability: 1
+  - prefab: {fileID: 7028727842652562773, guid: c996d9e66f8fef546a5a60f5c55be86b, type: 3}
+    minScore: 200
+    probability: 10
+  - prefab: {fileID: 7028727842652562773, guid: c996d9e66f8fef546a5a60f5c55be86b, type: 3}
+    minScore: 50
+    probability: 10
+  - prefab: {fileID: 3991634469346443373, guid: e8ec3bfce68965548916956247d91c06, type: 3}
+    minScore: 100
+    probability: 25
+  - prefab: {fileID: 3991634469346443373, guid: e8ec3bfce68965548916956247d91c06, type: 3}
+    minScore: 0
+    probability: 25
+  - prefab: {fileID: 601182248875047757, guid: ae5fe2b8a638da846bb265135d3f06c4, type: 3}
+    minScore: 0
+    probability: 100
